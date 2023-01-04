@@ -1,3 +1,39 @@
-body{
+body {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+section {
+    display: flex;
+    margin: auto;
+}
+
+div {
+    width: 50%;
+    padding: 4% 10%;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    font-weight: 590;
+}
+
+span {
+    color: #65920b;
+    text-shadow: #470d0d;
+}
+
+h3 {
+    color: #470d0d;
+}
+
+.link-button {
+    color: whitesmoke;
+    background-image: linear-gradient(orange, red);
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
 }
