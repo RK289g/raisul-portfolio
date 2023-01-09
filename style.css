@@ -41,10 +41,22 @@ h3 {
 .exp-card {
     box-shadow: 10px 10px 40px red;
     border-left: 5px solid #df3a11;
+    border-collapse: separate;
+    border-spacing: 70px;
 }
-box
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    border-collapse: separate;
+    border-spacing: 70px;
+}
 
 footer {
     text-align: center;
     font-weight: bold;
+}
+
+#expp {
+    padding: 0% 10%;
 }
