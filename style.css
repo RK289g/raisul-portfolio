@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #c9c9df;
 }
 
-section {
+.flex {
     display: flex;
-    margin: auto;
 }
 
 div {
@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-    font-weight: 590;
+    font-weight: 595;
 }
 
 span {
@@ -27,7 +27,7 @@ span {
 }
 
 h3 {
-    color: #470d0d;
+    color: #a81b1b;
 }
 
 .link-button {
@@ -36,4 +36,15 @@ h3 {
     text-decoration: none;
     padding: 10px 40px;
     font-weight: 700;
+}
+
+.exp-card {
+    box-shadow: 10px 10px 40px red;
+    border-left: 5px solid #df3a11;
+}
+box
+
+footer {
+    text-align: center;
+    font-weight: bold;
 }
